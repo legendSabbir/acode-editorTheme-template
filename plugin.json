@@ -1,0 +1,13 @@
+{
+  "id":"acode.plugin.editorTheme",
+  "name":"Editor Theme",
+  "main":"dist/main.js",
+  "version":"1.0.0",
+  "readme":"readme.md",
+  "icon":"icon.png",
+  "files":[],
+  "author": {
+    "name":"Legend Sabbir",
+    "email":"sabbirhossain.trash@gmail.com",
+    "github":"legendSabbir"
+  }}

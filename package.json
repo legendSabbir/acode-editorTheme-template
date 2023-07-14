@@ -1,0 +1,40 @@
+{
+  "name": "acode-editorTheme-template",
+  "version": "1.0.2",
+  "description": "Template for Acode plugin Editor theme",
+  "main": "dist/main.js",
+  "repository": "https://github.com/legendSabbir/acode-editorTheme-template.git",
+  "author": "Legend Sabbir",
+  "license": "MIT",
+  "dependencies": {
+    "html-tag-js": "^1.1.22"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.13",
+    "@babel/plugin-transform-runtime": "^7.19.6",
+    "@babel/preset-env": "^7.18.10",
+    "babel-loader": "^9.1.0",
+    "jszip": "^3.10.1",
+    "live-server": "^1.2.2",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^5.0.0",
+    "postcss": "^8.4.21",
+    "postcss-loader": "^7.0.2",
+    "raw-loader": "^4.0.2",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "build-release": "webpack --mode production",
+    "start-dev": "node .vscode/start-dev"
+  },
+  "browserslist": [
+    "> 0.25%, not dead"
+  ],
+  "resolutions": {
+    "terser": ">=5.14.2 ",
+    "glob-parent": ">=5.1.2"
+  }
+}
