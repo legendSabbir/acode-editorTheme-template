@@ -35,7 +35,7 @@
     border-radius: 0;
   }
   
-  // Multiple cursor's first selection
+  // Multiple cursor's active selection
   .ace_multiselect .ace_selection.ace_start {
     box-shadow: 0 0 3px black;
   }
@@ -69,13 +69,14 @@
   /**
    * keywords
    * for example if else 
-  */
+   * ID in css
+   */
   .hljs-keyword,
   .ace_keyword {
     color: #f472b6
   }
   
-  // example =, id in css
+  // example =
   .ace_keyword.ace_operator {
     color: #ddd
   }
@@ -212,6 +213,18 @@
   
   .ace_paren {
     color: gold;
+  }
+  
+  /**
+   * Don't change indent guide 
+   */
+  
+  .ace_indent-guide {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQImWPQ09NrYAgMjP4PAAtGAwchHMyAAAAAAElFTkSuQmCC) right repeat-y
+  }
+  
+  .ace_indent-guide-active {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQIW2PQ1dX9zzBz5sz/ABCcBFFentLlAAAAAElFTkSuQmCC) right repeat-y;
   }
   
   /**
